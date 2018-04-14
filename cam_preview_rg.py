@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""GPU based preview, R and G channels enabled"""
 import time
 import picamera
 

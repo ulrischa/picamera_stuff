@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""GPU based preview, only red channel enabled"""
 import time
 import picamera
 

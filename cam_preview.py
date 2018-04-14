@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Simple GPU based preview, no fancy stuff"""
 import time
 import picamera
 
