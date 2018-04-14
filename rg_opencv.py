@@ -1,4 +1,5 @@
 #!/usr/bin/env python2.7
+"""Get R and G bands, average and display as greyscale"""
 from __future__ import (absolute_import, division,  # Python3 compatibility
                         print_function)
 import time
