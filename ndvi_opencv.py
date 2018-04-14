@@ -1,4 +1,5 @@
 #!/usr/bin/env python2.7
+"""Implement https://publiclab.org/wiki/ndvi for picamera"""
 from __future__ import (absolute_import, division,  # Python3 compatibility
                         print_function)
 import time
