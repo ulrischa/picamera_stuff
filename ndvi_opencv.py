@@ -9,6 +9,8 @@ import datetime
 import requests
 from subprocess import check_output
 
+URL_TO_SEND_IMAGE = ""
+
 # Check for Wi-Fi connection
 def check_wifi():
     if check_output(['hostname', '-I']):
@@ -42,7 +44,7 @@ with picamera.PiCamera() as camera:
                         files = {'fileToUpload': nf}
                         try:
                             resp_u = requests.post(
-                                "URL TO WEBSERVICE",
+                                URL_TO_SEND_IMAGE,
                                 files=files
                             )
                         except:
